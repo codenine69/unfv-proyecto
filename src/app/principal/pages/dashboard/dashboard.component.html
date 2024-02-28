@@ -1,0 +1,9 @@
+<p>SUBIR</p>
+
+<input type="file" (change)="uploadImage($event)" multiple>
+
+
+<div class="images">
+    <img [src]="image" *ngFor="let image of images" width="200">
+
+</div>
